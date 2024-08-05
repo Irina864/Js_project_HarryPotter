@@ -72,7 +72,11 @@ function addNew(response, box) {
         (response.actor === ''
             ? `<div class="member__text">Actor: No information available</div>`
             : `<div class="member__text">Actor: ${response.actor}</div>`);
-    box.appendChild(member);
-    member.appendChild(memberPic);
-    member.appendChild(memberInfo);
+    if (box) {
+        box.appendChild(member);
+        member.appendChild(memberPic);
+        member.appendChild(memberInfo);
+    } else {
+        null;
+    }
 }
