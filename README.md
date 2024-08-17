@@ -26,7 +26,7 @@ Technical details
 
 ✅ Website is hosted on GitHub Pages so that team can conveniently work on project together.
 
-🔗 Find this website on GitHub Pages:
+🔗 Find this website on Netlify:https://stirring-crepe-b57756.netlify.app/
 
 creators:
 https://github.com/TaisNch
